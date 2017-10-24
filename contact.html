@@ -10,40 +10,44 @@
 
 	<body>
 		<header>
-			<h1>Cuneyt Akcay</h1>
-			<nav>
-				<ul>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Portfolio</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul>
-			</nav>
+			<div class="header">
+				<h1>Cuneyt Akcay</h1>
+				<nav>
+					<ul>
+						<li><a href="index.html">About</a></li>
+						<li><a href="portfolio.html">Portfolio</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
 		</header>
+		
+		<div class="content">
+			<section>
+				<h2>Contact</h2><hr>
+				
+				<form>
+					<label>Name<br>
+						<input type="text" name="name">
+					</label><br>
+					<label>Email<br>
+						<input type="email" name="">
+					</label><br>
+					<label>Message<br>
+						<textarea name="message"></textarea>
+					</label><br>
+					<input type="submit" name="submit">
+				</form>
+			</section>
 
-		<section>
-			<h2>Contact</h2>
-			
-			<form>
-				<label>Name<br>
-					<input type="text" name="name">
-				</label><br>
-				<label>Email<br>
-					<input type="email" name="">
-				</label><br>
-				<label>Message<br>
-					<textarea name="message"></textarea>
-				</label><br>
-				<input type="submit" name="submit">
-			</form>
-		</section>
-
-		<aside>
-			<h3>Connect with Me</h3>
-			<img src="http://placehold.it/60x60" alt="#">
-			<img src="http://placehold.it/60x60" alt="#">
-			<img src="http://placehold.it/60x60" alt="#">
-		</aside>
-
+			<aside>
+				<h3>Connect with Me</h3><hr>
+				<img src="assets/images/github.png" alt="Github icon">
+				<img src="assets/images/linkedin.png" alt="Linkedin icon">
+				<img src="assets/images/stackoverflow.png" alt="Stackoverflow icon">
+			</aside>
+		</div>
+		
 		<footer>
 			<p>Copyright&copy;2017 Cuneyt Akcay</p>
 		</footer>
